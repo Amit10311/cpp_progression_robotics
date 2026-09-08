@@ -1,0 +1,29 @@
+{
+  // Run from current file directory
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.saveFileBeforeRun": true,
+  // Show command being executed in the Output Window(default: false)(Use to check the actual command being executed)
+  "code-runner.showExecutionMessage": false,
+  // Clear previous output before running (default: true)
+  "code-runner.clearPreviousOutput": true,
+  // Run in Terminal to support interactive input (default: true)(Use to support interactive input)
+  "code-runner.runInTerminal": false,
+  // Disable confirmation when deleting files in the explorer (default: true)
+  "explorer.confirmDelete": false,
+
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+   // Identify and fix issues in your code before building.
+  "C_Cpp.errorSquiggles": "enabled",
+  // Set IntelliSense mode for C++ files
+  "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+
+  // Trim trailing whitespace in files
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorTheme": "Visual Studio Dark - C++",
+  "files.associations": {
+        "*.hpp": "cpp"
+    },
+  "editor.inlineSuggest.enabled": false,
+  "editor.mouseWheelZoom": true,
+}
