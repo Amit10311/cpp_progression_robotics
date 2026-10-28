@@ -10,8 +10,7 @@ struct Buffer
     }
 };
 
-// Base destructor is virtual so deleting a Derived object through a Base* calls
-// the correct derived destructor first.
+// Base destructor is virtual so deleting a Derived object through a Base* calls the correct derived destructor first.
 struct Base
 {
     virtual ~Base()

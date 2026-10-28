@@ -5,9 +5,15 @@ class Robot
 {
 public:
   // Virtual function to allow derived classes to override this behavior
-  virtual void move()
+  virtual void move() // Virtual function to be overridden by derived classes
   {
     std::cout << "Robot is moving" << std::endl;
+  }
+
+  // virtual destructor required for polymorphic deletion
+  virtual ~Robot()
+  { // Virtual destructor for proper cleanup of derived classes
+    std::cout << "Robot destroyed\n";
   }
 };
 

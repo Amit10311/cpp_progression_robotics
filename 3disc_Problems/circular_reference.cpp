@@ -10,7 +10,7 @@ struct Node
     std::string name;
     std::shared_ptr<Node> next;
 
-    ~Node()
+    ~Node() // Destructor to show when a node is destroyed
     {
         std::cout << "~" << name << ' ';
     }
